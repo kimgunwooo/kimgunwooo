@@ -10,6 +10,8 @@
 
 ## 🚀 Velog
 [![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=kimgunwooo)](https://velog.io/@kimgunwooo/posts)
+- [멋쟁이 사자처럼 멘토링 후기](https://velog.io/@kimgunwooo/%EB%A9%8B%EC%9F%81%EC%9D%B4-%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-%EB%A9%98%ED%86%A0%EB%A7%81-%ED%9B%84%EA%B8%B0)
+
 
 
 ## 💪Skills
