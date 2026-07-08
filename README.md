@@ -1,35 +1,62 @@
+# Gunwoo Kim
 
+**Platform Engineer / DevOps**
 
-# Kimgunwooo 👋
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kimgunwooo&layout=compact&theme=dark)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kwforu)](https://solved.ac/kwforu/)
+I focus on making deployment, runtime, and observability workflows measurable, repeatable, and reviewable.
 
+## Current Focus
 
+- **CI/CD measurement and optimization**  
+  Jenkins stage metrics, Docker layer/cache structure, image size, image digest, build/deploy agent separation
 
+- **Runtime provisioning**  
+  Ansible-based tenant runtime server preparation, config repo driven deploy targets, Docker Compose runtime setup
 
-## 🚀 Velog
-[![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=kimgunwooo)](https://velog.io/@kimgunwooo/posts)
-- [멋쟁이 사자처럼 멘토링 후기](https://velog.io/@kimgunwooo/%EB%A9%8B%EC%9F%81%EC%9D%B4-%EC%82%AC%EC%9E%90%EC%B2%98%EB%9F%BC-%EB%A9%98%ED%86%A0%EB%A7%81-%ED%9B%84%EA%B8%B0)
+- **Kubernetes GitOps**  
+  RKE2, Argo CD, GitHub Actions, GHCR, promotion PR, tag@sha256 digest pinning, rollout/readiness troubleshooting
 
+- **Observability**  
+  OpenTelemetry Collector agent/gateway pattern, Grafana LGTM, log/trace/metric collection path standardization
 
+- **AI-assisted workflow**  
+  Codex/Claude based task harnesses for repeatable DB change drafts, checklist-based review, and team handoff
 
-## 💪Skills
-### Platforms & Languages
-![Java](https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-6DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white)
-![springboot](https://img.shields.io/badge/springboot-6DB33F.svg?&style=for-the-badge&logo=springboot&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white)
-<!--
-**kimgunwooo/kimgunwooo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Selected Work
 
-Here are some ideas to get you started:
+| Area | What I worked on |
+| --- | --- |
+| Jenkins / Docker CI/CD | Measured stage-level bottlenecks and improved Docker build/push flow with layer/cache and runtime image changes |
+| Ansible Provisioning | Standardized tenant runtime server preparation for IDC Demo/PoC environments |
+| RKE2 GitOps | Built and troubleshot a personal Kubernetes GitOps flow with Argo CD, GHCR, and image digest pinning |
+| Observability Platform | Configured OpenTelemetry Collector and Grafana LGTM to separate collection, export, storage, and query responsibilities |
+| DB Change Workflow | Used Liquibase changelog templates and AI-assisted review harnesses to make DB change requests easier to review |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Public Projects
+
+- [FQS - Flexible Queue Service](https://github.com/kimgunwooo/FQS-flexible-queue-service)  
+  B2B queue management service experiment with Docker-based dynamic instances and Spring Cloud Gateway routing.
+
+- [FQS SDK](https://github.com/kimgunwooo/FQS-sdk)  
+  Java SDK for integrating queue functionality with less application-side boilerplate.
+
+- [Fizz Backend](https://github.com/kimgunwooo/fizz-challenge-backend)  
+  AWS S3, Lambda, MediaConvert, CloudFront based media upload and encoding pipeline project.
+
+## Tech Stack
+
+**Platform / Container**  
+Docker, Docker Compose, Harbor, Kubernetes(RKE2), Argo CD, GitHub Actions, GHCR
+
+**Automation / CI/CD**  
+Jenkins, Ansible, Shell, Linux
+
+**Observability**  
+OpenTelemetry, Grafana, Loki, Tempo, Mimir, Prometheus
+
+**Backend / Database**  
+Java, Spring Boot, Spring Security, PostgreSQL, MySQL, Redis, Liquibase
+
+## Links
+
+- Blog: [velog.io/@kimgunwooo](https://velog.io/@kimgunwooo/posts)
+- GitHub: [github.com/kimgunwooo](https://github.com/kimgunwooo)
