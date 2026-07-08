@@ -59,4 +59,4 @@ Java, Spring Boot, Spring Security, PostgreSQL, MySQL, Redis, Liquibase
 ## Links
 
 - Blog: [velog.io/@kimgunwooo](https://velog.io/@kimgunwooo/posts)
-- GitHub: [github.com/kimgunwooo](https://github.com/kimgunwooo)
+- Email: [kw4u1223@gmail.com](mailto:kw4u1223@gmail.com)
